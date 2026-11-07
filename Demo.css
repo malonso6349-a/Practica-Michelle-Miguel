@@ -1,0 +1,106 @@
+h1 {
+    text-align: center;
+    color: rgb(25, 2, 63);
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 28px;
+}
+
+p {
+    color: rgb(70, 9, 128);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    background-color: rgb(243, 237, 237);
+    border: 2px solid rgb(151, 12, 151);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px;
+}
+
+section {
+    background-color: rgb(219, 151, 151);
+}
+
+section b {
+    display: block;
+    margin: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 80px;
+    margin-right: 0;
+}
+
+section p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 80px;
+    margin-right: 0;
+}
+
+body {
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1cm;
+}
+
+img {
+    height: 400px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    min-height: 100vh;
+    text-align: center;
+    align-content: center;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    text-align: center;
+    align-content: center;
+    gap: 15px;
+}
+
+header {
+    background-color: white;
+}
+
+aside {
+    background-color: rgb(97, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(106, 60, 148);
+}
+
+@media (max-width: 600px) {
+    .contenido {
+        grid-template-columns: 1fr;
+    }
+
+    section b,
+    section p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    img {
+        width: 150px;
+        height: 250px;
+    }
+
+    body {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: rgb(233, 224, 105);
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+
+}
+
+.Persona {
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.section {
+    color: rgb(30, 41, 199);
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    background-color: rgb(219, 151, 151);
+}
+
+.P_Contenido {
+    color: chocolate;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.Menu {
+    color: rgb(119, 32, 218);
+    font-family: "Times New Roman", serif;
+    font-size: 28px;
+}
